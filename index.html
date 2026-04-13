@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+
+	<meta charset="UTF-8">
 	<title>Nina Carducci - Photographe</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
@@ -8,17 +10,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
 	<meta
 			name="description"
-			content="Nina Carducci, photographe professionnelle en Île-de-France, capture vos moments uniques : mariages, portraits, concerts et événements. Découvrez son portfolio et ses services sur mesure."
+			content="Nina Carducci, photographe professionnelle a Bordeaux, capture vos moments uniques : mariages, portraits, concerts et événements. Découvrez son portfolio et ses services sur mesure."
 	/>
 	<!-- Open Graph -->
-	<meta property="og:title" content="Nina Carducci - Photographe en Île-de-France">
+	<meta property="og:title" content="Nina Carducci - Photographe a Bordeaux">
 	<meta property="og:description" content="Photographe professionnelle, Nina Carducci capture vos moments uniques : mariages, portraits, concerts et événements. Découvrez son univers.">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.nina-carducci.fr">
@@ -26,9 +28,95 @@
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Nina Carducci - Photographe en Île-de-France">
+	<meta name="twitter:title" content="Nina Carducci - Photographe a Bordeaux">
 	<meta name="twitter:description" content="Photographe professionnelle spécialisée en mariages, portraits et événements. Découvrez le travail de Nina Carducci.">
 	<meta name="twitter:image" content="https://www.nina-carducci.fr/assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg">
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"image": "https://www.nina-carducci.fr/assets/images/nina.png",
+			"url": "https://www.nina-carducci.fr",
+			"telephone": "05 56 67 78 89",
+			"priceRange": "€€",
+			"description": "Photographe professionnelle a Bordeaux spécialisée en mariages, portraits, concerts et événements.",
+
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Gironde",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "44.833328",
+				"longitude": "-0.56667"
+			},
+
+			"areaServed": {
+				"@type": "Place",
+				"name": "Gironde"
+			},
+
+			"sameAs": [
+				"https://www.instagram.com/ninacarducci.photo/"
+			],
+
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Lundi",
+						"Mardi",
+						"Mercredi",
+						"Jeudi",
+						"Vendredi"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Services de photographie",
+				"itemListElement": [
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Shooting photo"
+						},
+						"price": "350",
+						"priceCurrency": "EUR"
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Retouches photo"
+						},
+						"price": "50",
+						"priceCurrency": "EUR"
+					},
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Album photo"
+						},
+						"price": "400",
+						"priceCurrency": "EUR"
+					}
+				]
+			}
+		}
+	</script>
+
 </head>
 <body>
 <div class="top-header">
@@ -74,13 +162,21 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.png">
+		<img src="./assets/images/nina.png" alt=" photo de Nina Carducci">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
-		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+		<h6 class="about-me__introduction">
+			Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion,
+			une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.
+		</h6>
+		<p>
+			Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
+			le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche,
+			ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur,
+			de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
+		</p>
 	</div>
 </div>
 <div id="gallery">
