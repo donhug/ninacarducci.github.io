@@ -59,7 +59,13 @@ h1, .name{
 	left: 0;
 	z-index: -1;
 }
+.carousel-control-prev{
+	background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+}
 
+.carousel-control-next{
+	background: linear-gradient(to left, rgba(0,0,0,0.5), transparent);
+}
 .picture {
 	flex: 1;
 	margin: 0 20px;
